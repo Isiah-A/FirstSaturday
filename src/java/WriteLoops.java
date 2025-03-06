@@ -77,13 +77,16 @@ public class WriteLoops {
 
     public int countDownFrom5000() {
         int w = 0;
+        int i;
+        for(i = 1; i < 5001; i+=11) {
 
-        // Write a FOR loop from 1 to less than 5001 by 11s.
-        // calling
-        w = w + 1;
-        // each time through the loop
-        
-        return w;
+
+            // Write a FOR loop from 1 to less than 5001 by 11s.
+            // calling
+            w = w + 1;
+            // each time through the loop
+
+        }return w;
     }
 
     public int nestedFors() {
