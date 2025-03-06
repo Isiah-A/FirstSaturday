@@ -38,14 +38,15 @@ public class WriteLoops {
     }
 
     public int startAtTwentyOne() {
-        int w = 0;
+        int w = 21;
+        for (w = 1; w <= 10; ) {
+            // Write a FOR loop that makes 10 iterations, start at 21.
+            // calling
+            w = w + 1;
+            w++;
+            // each time through the loop
 
-        // Write a FOR loop that makes 10 iterations, start at 21.
-        // calling
-        w = w + 1;
-        // each time through the loop
-        
-        return w;
+        } return w;
     }
 
     public int countDown() {
