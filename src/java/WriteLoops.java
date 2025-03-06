@@ -14,10 +14,10 @@ public class WriteLoops {
 
     public int oneToFive() {
         int w = 0;
-        for (w = 0; w < 10; w++) {
+        for (w = 1; w < 4; w++) {
             // Write a FOR loop that counts from 1 to 10.
             // calling
-            System.out.println(w = w + 1);
+            w = w + 1;
             // each time through the loop
 
             // this will tell the test how many times the loop executed.
@@ -26,13 +26,15 @@ public class WriteLoops {
 
     public int oneToTen() {
         int w = 0;
+        for (w = 1; w < 9; w++) {
 
-        // Write a FOR loop that counts from 1 to 10.
-        // calling
-        w = w + 1;
-        // each time through the loop
-        
-        return w;
+
+            // Write a FOR loop that counts from 1 to 10.
+            // calling
+            w = w + 1;
+            // each time through the loop
+
+        }return w;
     }
 
     public int startAtTwentyOne() {
