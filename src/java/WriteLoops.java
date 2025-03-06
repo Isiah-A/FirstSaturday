@@ -14,7 +14,8 @@ public class WriteLoops {
 
     public int oneToFive() {
         int w = 0;
-        for (w = 1; w < 4; w++) {
+        int i;
+        for (i = 0; i < 5; i++) {
             // Write a FOR loop that counts from 1 to 10.
             // calling
             w = w + 1;
@@ -26,7 +27,8 @@ public class WriteLoops {
 
     public int oneToTen() {
         int w = 0;
-        for (w = 0; w < 10; w++) {
+        int i;
+        for (i = 0; i < 10; i++) {
 
 
             // Write a FOR loop that counts from 1 to 10.
@@ -38,20 +40,22 @@ public class WriteLoops {
     }
 
     public int startAtTwentyOne() {
-        int w = 21;
-        for (w = 1; w <= 10; ) {
+        int w = 0;
+        int i;
+        for (i = 21; i <= 31; ) {
             // Write a FOR loop that makes 10 iterations, start at 21.
             // calling
             w = w + 1;
-            w++;
+            i++;
             // each time through the loop
 
         } return w;
     }
 
     public int countDown() {
-        int w;
-        for(w = 100; w >= 1; w--) {
+        int w = 0;
+        int i;
+        for(i = 100; i >= 1; i--) {
             // Write a FOR loop that counts down from 100 to 0.
             // calling
             w = w + 1;
