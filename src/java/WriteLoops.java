@@ -26,7 +26,7 @@ public class WriteLoops {
 
     public int oneToTen() {
         int w = 0;
-        for (w = 1; w < 9; w++) {
+        for (w = 0; w < 10; w++) {
 
 
             // Write a FOR loop that counts from 1 to 10.
