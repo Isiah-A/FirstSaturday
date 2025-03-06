@@ -50,24 +50,24 @@ public class WriteLoops {
     }
 
     public int countDown() {
-        int w = 0;
+        int w;
+        for(w = 100; w >= 1; w--) {
+            // Write a FOR loop that counts down from 100 to 0.
+            // calling
+            w = w + 1;
+            // each time through the loop
 
-        // Write a FOR loop that counts down from 100 to 0.
-        // calling
-        w = w + 1;
-        // each time through the loop
-        
-        return w;
+        }return w;
     }
 
     public int byTwoTo32() {
         int w = 0;
-
-        // Write a FOR loop from 0 to 32 by 2s.
-        // calling
-        w = w + 1;
-        // each time through the loop
-        return w;
+        for(w = 1; w <= 32; w++) {
+            // Write a FOR loop from 0 to 32 by 2s.
+            // calling
+            w = w + 1;
+            // each time through the loop
+        }return w;
     }
 
     public int countDownFrom5000() {
