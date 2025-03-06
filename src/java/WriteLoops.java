@@ -94,7 +94,7 @@ public class WriteLoops {
         int i;
         int x;
         for (i = 0; i < 20; i++){
-            for(x = 0; x < 4; x++) {
+            for(x = 0; x < 5; x++) { //changed from 4 to 5 to equal 100
 
 
                 // Write a nested FOR loop(s), where one counts from
