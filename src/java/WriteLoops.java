@@ -203,9 +203,13 @@ public class WriteLoops {
         int runningScore = 0;
 
         // do your while loop here
+        do{  runningScore = runningScore + currentScore;
+            currentScore = gameNextScore();
+            w = w + 1;
+
+        }while (runningScore > highestScore);
 
             // calling
-            w = w + 1;
             // each time through the inner loop
 
         return w >= 3;
@@ -218,10 +222,18 @@ public class WriteLoops {
     public int checkServerStatus() {
         int w = 0;
         String adminPhoneNumber = "+1 202 456 1111";
-        
+        while(serverIsRunning()){
+            waitFor(5);
+            w = w + 1;
+
+        }if(serverIsRunning()){
+            sendEmergencyText("Help", adminPhoneNumber);
+            tryServerRestart("Restart server", adminPhoneNumber);
+
+        }
 
         // calling
-        w = w + 1;
+
         // each time through the inner loop
         
         return w;
@@ -232,10 +244,16 @@ public class WriteLoops {
     // and if it is, add 7 to “i”
     public int loop50by7() {
         int w = 0;
+        int i = 0;
+        while (i < 50){
+            i+=7;
+            w = w + 1;
+        }
+
 
 
             // calling
-            w = w + 1;
+
             // each time through the inner loop
         
         return w;
